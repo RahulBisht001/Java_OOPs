@@ -22,3 +22,8 @@
       // additional fields and methods
   }    
   ```
+
+## Types of Inheritance in Java
+1. Single level inheritance
+2. Multilevel Inheritance
+3. Heirarchial Inheritance
