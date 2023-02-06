@@ -1,0 +1,13 @@
+--------
+       |
+       |
+      \ /
+       +
+
+  # Hybrid Inheritance : 
+      It is Combination of two or more than two Inheritance .
+    
+$$   Same as Multiple Inheritance java doesn't support Hybrid Inheritance. 
+ It has Interfaces for that
+
+Reason --> Because It is Combination of two or more which crete ambiguity as Multiple Inheritance

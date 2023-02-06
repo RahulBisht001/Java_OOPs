@@ -1,0 +1,25 @@
+# Multiple Inheritance
+  |
+  |
+  ----->      One Child class extends more than one parent class.
+  and If we have to same method or variables in the parent class 
+  so the Child class will confuse and cause ambiguity.  that why ->
+  |
+  |
+  ----->  $ It is Not supported in Java
+
+
+  ? ?
+  So how you will implement such kind of Properties in java Because there can be use cases where you
+  need to implement such kind of things.
+
+  --> You will do it Using Interfaces
+
+
+This is Java Not C++.
+here we don't deal with pointers.
+In C++ we have pointers by which we can resolve ambiguity .
+we were able to resolve diamond Problem .
+
+Because java does not support Pointer we don't have
+ something called "Multiple Inheritance".
