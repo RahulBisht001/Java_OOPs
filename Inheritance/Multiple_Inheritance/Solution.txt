@@ -1,4 +1,4 @@
-# Multiple Inheritance
+``` # Multiple Inheritance
   |
   |
   ----->      One Child class extends more than one parent class.
@@ -23,3 +23,4 @@ we were able to resolve diamond Problem .
 
 Because java does not support Pointer we don't have
  something called "Multiple Inheritance".
+ ```
