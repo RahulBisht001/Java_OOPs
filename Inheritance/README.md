@@ -1,6 +1,6 @@
 
 
-### Inheritance ✅✅
+# Inheritance ✅✅
 
 <img align="right" width="300px" height="300px" src="https://seleniumautomationtester.files.wordpress.com/2017/03/inheritance-1.gif?w=364">
 
