@@ -1,5 +1,14 @@
+<style>
+  img {
+    display: block;
+    margin: 16px auto;
+  }
+</style>
 
 ### Inheritance ✅✅
+
+
+<img src="[https://i.imgur.com/example.gif](https://seleniumautomationtester.files.wordpress.com/2017/03/inheritance-1.gif)" alt="Inheritance Gif">
 
 
    Inheritance in Java is a mechanism where a class can inherit the properties and behaviors from another class. 
