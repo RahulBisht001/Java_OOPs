@@ -9,3 +9,14 @@
    A subclass (also known as a derived class or child class) can inherit fields and methods from a superclass
    (also known as a base class or parent class). The subclass can also add new fields and methods, or override 
    methods of the superclass.
+
+
+  ```
+  class Animal {
+       // fields and methods
+  }
+
+  class Dog extends Animal {
+      // additional fields and methods
+  }    
+  ```
