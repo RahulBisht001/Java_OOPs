@@ -2,7 +2,7 @@
 
 ### Inheritance ✅✅
 
-<img align="center" width="300px" height="250px" src="[http://www.fillmurray.com/100/100](https://seleniumautomationtester.files.wordpress.com/2017/03/inheritance-1.gif?w=364)">
+<img align="right" width="300px" height="300px" src="https://seleniumautomationtester.files.wordpress.com/2017/03/inheritance-1.gif?w=364">
 
    Inheritance in Java is a mechanism where a class can inherit the properties and behaviors from another class. 
    This allows for the creation of new classes that are built upon existing classes, promoting reusability and 
