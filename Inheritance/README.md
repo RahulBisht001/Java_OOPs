@@ -21,6 +21,7 @@
   class Dog extends Animal {
       // additional fields and methods
   }    
+  
   ```
 
 ## Types of Inheritance in Java
