@@ -16,7 +16,6 @@ public class Main {
 
     }
 }
-
 class Result {
     int marks;
 
