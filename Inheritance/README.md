@@ -13,7 +13,7 @@
    methods of the superclass.
 
 
-  ```
+  ```java
   class Animal {
        // fields and methods
   }
