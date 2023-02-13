@@ -1,0 +1,105 @@
+                  ? what
+                  and   Why
+
+
+                Poly-morphism
+                /     \
+               /       \
+            Many        Ways to represent
+
+$ Types of Polymorphism
+
+   # Compile Time / Static Polymorphism
+   |
+   ----> This is achieved Via method overloading
+
+      method overloading can be ->
+   1.number of parameter are changed
+   2.return type is different
+   3.type of argument
+   4.ordering of arguments
+
+   here java knows at compile time that which method will be called
+   that's why it is also called early Binding
+
+   
+   
+   # Run Time / Dynamic Polymorphism
+   |
+   ---->  achieved via method overriding
+   Everything like the number of parameters,types,orders and return type .is same in 
+   child class and super class 
+   
+   BUT the  body is different . then it is called Run time or Dynamic Polymorphism.
+
+
+
+     // How Overriding Works
+    |----------------------------------------------------------------------------------------- | 
+    |                                                                                          |
+    |         ParentClass  objName =  new child Class();                                       |                                          
+    |                                                                                          |
+    |          here which method will be called depends on  child class                        |                                                 
+    |          This is Known as Up Casting                                                     |                        
+    |                                                                                          |
+    |          & this whole thing is called Overriding                                         |                          
+    |                                                                                          |
+    |                                                                                          |
+    |----------------------------------------------------------------------------------------- |
+
+
+
+How Java knows that which method to called
+  which particular version should run
+  |
+  ---->  Dynamic method Dispatch
+   
+      based on the type of object
+      Not the type of reference variable
+    
+    
+
+|-----------     Most IMP Concept    ------------------|
+
+$ differences btw example  1 $ 2  --->
+
+1. parentClass  objName = childClass ();  no error
+
+2. childClass objName = parentClass ();   error
+
+
+There are many variables in child and Parent classes
+so you are given access to the variables that are in the
+reference variable type. 
+
+hence you can access the variable of child as well as parent class.
+this statement also means ; that the ones you are trying to access 
+should be initialized 
+
+but here in second example if the object itself is of type parentClass 
+then how will you call the constructor of child class
+
+
+
+Reference variable tell us 
+  |
+  ----> which elements it can excess
+and Object Type tell us
+|
+ ---->  which will actually get accessed
+ 
+     
+
+Final Keyword -->
+1. A Method which is Final can't be overridden . 
+    whenever we declare a class as final implicitly its method are also final
+2. You can also use final keyword  to prevent inheritance. 
+
+
+Can we Override a Static method ??
+
+      No ! we can't because they are static . they are object independent.
+  so matter which class you inherit it will run the Parent one . 
+
+  Overriding depends on Object and static does't depend on object 😂😂
+  hence static methods can be inherited but can't be overridden.
