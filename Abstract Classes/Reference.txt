@@ -1,0 +1,41 @@
+# Abstract Classes
+__________________
+|
+|
+-----> These are Basically the Child class Responsibility to provide the essentials
+definition for the Abstract methods.
+their is not implementation in the parent class(super class) so it is important that
+child class must override them
+
+$ A class that contains one or more than one Abstract methods , must be declared as a Abstract class
+
+
+Question __
+Why we need Abstract Classes?
+.   The Answer is,  it looks cleaner. if we know that the methods in the parent classes 
+will be overridden so make them Abstract
+
+
+Question __
+Can we create Objects of Abstract classes?
+.  No we can't because if we are able to create the objects of Abstract class then if we will
+call the Abstract methods of the class it will give us error . 
+. Why ?
+because Abstract methods does't have body.
+
+Question __
+Can we create Abstract constructor?
+. No , Same reason given above
+
+
+Question __
+Can we create static methods in the Abstract class ?
+. Yes ;
+because static methods are object independent. We call static methods using 
+class name(Good Practice). So don't need any Object for it
+
+
+Question __
+Can we have the final Abstract class?
+No . For the Obvious reasons;
+because Final Keyword prevent the class to be inherited
